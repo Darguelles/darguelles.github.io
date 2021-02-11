@@ -1,0 +1,189 @@
+{
+  "headerLabel": "Diego A. Rojas",
+  "primaryColor": "green",
+  "secondaryColor": "#26a69a",
+  "errorColor": "#f44336",
+  "successColor": "#4caf50",
+  "linkColor": "#039be5",
+  "sections": [
+    {
+      "id": "home",
+      "name": "Home",
+      "cardType": "imageAndText",
+      "showNav": false,
+      "metadata": {
+        "imageUrl": "../images/diego_profile.png",
+        "cardTitle": "",
+        "textTitle": "Site Reliability Engineer @ QuintoAndar",
+        "textParagraphs": [
+          "Aiming to improve the use of technology to make people's lives better and take the next step as human society. Specialist in software development, affectionate to finances, I consider learning and teaching are two complementary parts of the same coin. Good team player."
+        ],
+        "tags": [
+          {
+            "title": "MBA Cybersecurity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "about",
+      "name": "About",
+      "cardType": "about",
+      "showNav": true,
+      "metadata": {
+        "carouselImages": [
+          "https://cdn-images-1.medium.com/max/1600/0*gCwigzFAYcBj_yDi",
+          "https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/a3840b1f-8bcd-4f75-b843-eedcb449408e/Image/0a36b9f8f0ee65511e0ed773d94c1464/oracle_certification_badge_oc_associate.png",
+          "https://fernandofranzini.files.wordpress.com/2018/02/badge.png?w=788",
+          "https://images.youracclaim.com/images/6c9b2a4b-91d5-4093-919a-7eb81cfe74ba/ITIL_Foundation.png",
+          "https://www.exin.com/sites/default/files/2018-11/EXIN_Badge_Program_DevOps.png"
+        ],
+        "cardTitle": "About",
+        "textTitle": "",
+        "textParagraphs": [
+          "Lucky to work with multidisciplinary teams\n              learning best practices about each area in the software development process, since the product idea,\n              discovery strategies, coding, test and deploy in production.",
+          "In transition to Cybersecurity area, applying DevSecOps principles and building scalable solutions to improve the security mechanisms and communication across the different services in our platform. My strong background as a Software Engineer allows me to build product-based solutions, targeting the main needs of the stakeholders and proposing improvements to our work methodology.\n"
+        ],
+        "badges": [
+          {
+            "title": "AWS",
+            "imageUrl": "./icons/aws-icon.png"
+          },
+          {
+            "title": "Terraform",
+            "imageUrl": "./icons/terraform-icon.png"
+          },
+          {
+            "title": "Kong",
+            "imageUrl": "./icons/kong-logo.png"
+          },
+          {
+            "title": "Golang",
+            "imageUrl": "./icons/golang-color-icon.png"
+          },
+          {
+            "title": "Docker",
+            "imageUrl": "./icons/docker-icon.png"
+          }
+        ]
+      }
+    },
+    {
+      "cardType": "experience"
+    },
+    {
+      "id": "certifications",
+      "name": "Achievements",
+      "cardType": "carouselAndText",
+      "showNav": true,
+      "metadata": {
+        "carouselImages": [
+          "https://cdn-images-1.medium.com/max/1600/0*gCwigzFAYcBj_yDi",
+          "https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/a3840b1f-8bcd-4f75-b843-eedcb449408e/Image/0a36b9f8f0ee65511e0ed773d94c1464/oracle_certification_badge_oc_associate.png",
+          "https://fernandofranzini.files.wordpress.com/2018/02/badge.png?w=788",
+          "https://images.youracclaim.com/images/6c9b2a4b-91d5-4093-919a-7eb81cfe74ba/ITIL_Foundation.png",
+          "https://www.exin.com/sites/default/files/2018-11/EXIN_Badge_Program_DevOps.png"
+        ],
+        "cardTitle": "Education and Certifications",
+        "textTitle": "",
+        "textParagraphs": [
+          "• AWS Certified Solutions Architect Associate",
+          "• Spring Certified Professional",
+          "• ITIL Foundation in IT Service Management",
+          "• EXIN DevOps Master"
+        ]
+      }
+    },
+    {
+      "id": "publications",
+      "name": "Top 5",
+      "cardType": "sliderBlog",
+      "showNav": true,
+      "metadata": {
+        "cardTitle": "Blog",
+        "sliderDuration": 400,
+        "sliderInterval": 4000,
+        "sliderElements": [
+          {
+            "iconImage": "https://images-na.ssl-images-amazon.com/images/I/51YmDHWgMvL._SX260_.jpg",
+            "backgroundImage": "https://images-na.ssl-images-amazon.com/images/I/51YmDHWgMvL._SX260_.jpg",
+            "textTitle": "Hands On: Full-stack development with Aurelia!",
+            "textDescription": "My first book released along with my friend\n                    Erikson Murrugarra. This is our first commercial book based on an\n                    alternative MEAN stack (MongoDB, Express, Aurelia and Node). Find more info",
+            "buttonText": "Get yours here!",
+            "buttonUrl": "https://images-na.ssl-images-amazon.com/images/I/51YmDHWgMvL.jpg"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/2160/1*9TsYaFv9aXb21m0T9axWEA.png",
+            "textTitle": "AuthZ and AuthN with Kong + OpenID",
+            "textDescription": "How we’ve implemented OpenID using opensource libraries.",
+            "textColor": "dimgray",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://diego-rojas.medium.com/authz-and-authn-with-kong-openid-2a8633ea7feb"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/1000/1*4AVaOMvFKdr9VoDZlq5afA.png",
+            "textTitle": "Provisionando acesso aos recursos na AWS via CLI",
+            "textDescription": "Como controlamos níveis de permissão de forma automática e damos autonomia para nosso time de engenharia.",
+            "textColor": "dimgray",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/quintoandar-tech-blog/provisionando-acesso-aos-recursos-na-aws-via-cli-ca14700fc20b"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/1000/1*0iqLRO3HkCUpn_lCzJ-CrQ.png",
+            "textTitle": "SAST and GitHub: Securing your Organization from Exposed Credentials",
+            "textDescription": "How to avoid exposed credentials in the code repository.",
+            "textColor": "dimgray",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://diego-rojas.medium.com/sast-and-github-securing-your-organization-from-exposed-credentials-a80d2103d56b"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/1400/1*KVp1bQM_wScAUvgGxQdf3w.png",
+            "textTitle": "Agnostic serverless functions using Kubeless",
+            "textDescription": "How we stop depending on a particular cloud provider to write and deploy our serverless functions.",
+            "textColor": "dimgray",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/@darguelles.rojas91/agnostic-serverless-functions-using-kubeless-3e0198c123eb/"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/1000/1*yN9fzhhoY8HDkfNyf23CZQ.png",
+            "textTitle": "Clean Architecture in Go",
+            "textDescription": "How to prepare your Go application to scale fast and reliable.",
+            "textColor": "dimgray",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://diego-rojas.medium.com/clean-architecture-in-go-a7a28540b3d9"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/2000/1*yeie9sVoh-oJ8xrOlbTGxQ.png",
+            "textTitle": "How tracing has become our key factor for fast error detection",
+            "textDescription": "Jaeger implementation for our distributed services. One annotation will trace everything you need.",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/quintoandar-tech-blog/how-tracing-has-become-our-key-factor-for-fast-error-detection-960485178306/"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/6408/1*F44zSvRWyD39mkOarDQjBg.png",
+            "textTitle": "Coronavirus: The Hammer and the Dance",
+            "textDescription": "Spanish translation from Tomas Pueyo's article about current infection statistics and how we could fight\n                    against this invisible enemy.",
+            "textColor": "dimgray",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/@darguelles.rojas91/coronavirus-the-hammer-and-the-dance-8ac077271a01/"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/8064/1*HojYbuC_91aMCJO41MTtHw.jpeg",
+            "textTitle": "Feign: Resilience and scalability for your rest clients",
+            "textDescription": "Step by step guide about how to implement synchronous API calls using fallback/retry patterns to\n                    improve resilience and fast failure recovery.",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/@darguelles.rojas91/amazing-rest-clients-with-mr-feign-6195d5499a38/"
+          }
+        ]
+      }
+    }
+  ]
+}
